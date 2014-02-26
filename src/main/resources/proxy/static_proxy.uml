@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-310.0" y="61.5">com.mycompany.app.proxy.Client</node>
+    <node x="-345.0" y="-91.5">com.mycompany.app.proxy.UserMgrStaticProxy</node>
+    <node x="-39.0" y="-89.5">com.mycompany.app.proxy.UserMgr</node>
+    <node x="-52.0" y="63.5">com.mycompany.app.proxy.UserMgrImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mycompany.app.proxy.Client" target="com.mycompany.app.proxy.UserMgrStaticProxy">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mycompany.app.proxy.UserMgrImpl" target="com.mycompany.app.proxy.UserMgr">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mycompany.app.proxy.UserMgrStaticProxy" target="com.mycompany.app.proxy.UserMgr">
+      <point x="71.0" y="0.0" />
+      <point x="-38.0" y="0.0" />
+    </edge>
+    <edge source="com.mycompany.app.proxy.Client" target="com.mycompany.app.proxy.UserMgrImpl">
+      <point x="35.0" y="0.0" />
+      <point x="-50.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
